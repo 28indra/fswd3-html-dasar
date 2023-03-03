@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 4</title>
+</head>
+
+<body
+    style="background: url(../assets/images/background.jpg); background-size: cover; background-attachment: fixed; color: white;">
+    <nav>
+        <center>
+            <h3>
+                <a href="../index.html" style="color: white;">Home</a>
+            </h3>
+        </center>
+    </nav>
+    <h1>Form Pendaftaran SIB 2023</h1>
+    <form>
+        <div>
+            <label for="fname">Nama Lengkap :</label><br>
+            <input type="text" name="fname" placeholder="Masukan nama lengkap"><br>
+            <label for="fname">Email :</label><br>
+            <input type="text" name="fname" placeholder="Masukan email"><br>
+            <label for="fname">No. HP :</label><br>
+            <input type="text" name="fname" placeholder="Masukan no. hp">
+        </div>
+        <div>
+            <p>Jenis Kelamin</p>
+            <input type="radio" id="lk" name="jenis_kelamin">
+            <label for="lk">Laki-laki</label> <br>
+            <input type="radio" id="pr" name="jenis_kelamin">
+            <label for="pr">Perempuan</label>
+        </div>
+        <div>
+            <p>Jurusan</p>
+            <select id="jurusan" name="jurusan">
+                <option value="sistem informasi">Sistem Informasi</option>
+                <option value="teknik informatika">Teknik Informatika</option>
+                <option value="digital marketing">Digital Marketing</option>
+            </select>
+        </div>
+        <p>Alamat</p>
+        <textarea name="message" rows="10" cols="50"></textarea>
+        <div>
+            <label for="avatar">Foto</label><br>
+            <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg"><br>
+            <input type="submit" value="Daftar">
+        </div>
+    </form>
+</body>
+
+</html>
