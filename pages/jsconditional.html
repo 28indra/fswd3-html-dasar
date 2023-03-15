@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 7</title>
+</head>
+<body>
+    <script>
+        //if
+        function ifconditional(){
+        let respond = prompt('berapa hasil 2 + 2?');
+
+        if (respond == 4) {
+            alert("Kamu benar")
+        }
+        }
+        ifconditional();
+
+        //if-else
+        function ifelseconditional(){
+        let respond = prompt('berapa hasil 10 x 5?');
+
+        if (respond == 50) {
+            alert("Kamu benar");
+        }else {
+            alert("Kamu salah");
+        }
+        }
+        ifelseconditional();
+
+        //else-if
+        function elseifconditional() {
+        let respond = prompt("Masukkan nilai anda")
+
+        if (respond >=70 && respond <=100) {
+            alert("Pertahankan nilai kamu!");
+        } else if (respond <70 && respond >=0){
+            alert("Tingkatkan lagi nilai kamu!")
+        } else
+            alert("Anda salah memasukkan nilai!")
+        }
+        elseifconditional();
+
+        //switch
+        function switcconditional() {
+            let respond = prompt(
+                "Silahkan pilih menu makanan berikut \n 1. Mie Goreng \n 2. Sate Ayam \n 3. Ayam Penyet");
+
+            switch (respond) {
+                case "1":
+                    alert("Harganya 15.000")
+                    break;
+            
+                case "2":
+                    alert("Harganya 12.000")
+                    break;
+            
+                case "3":
+                    alert("Harganya 10.000")
+                    break;
+            
+                default:
+                    break;
+            }
+        }
+        switcconditional();
+    </script>
+</body>
+</html>
